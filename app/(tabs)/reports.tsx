@@ -22,31 +22,7 @@ import { Expense, Income, Budget, Group } from '@/types';
 import { LinearGradient } from 'expo-linear-gradient';
 import InteractiveCharts from '@/components/InteractiveCharts';
 import DataExport from '@/components/DataExport';
-import {
-  BarChart,
-  PieChart,
-  TrendingUp,
-  TrendingDown,
-  Calendar,
-  DollarSign,
-  Target,
-  Users,
-  Download,
-  Eye,
-  Filter,
-  RefreshCw,
-  ArrowUpRight,
-  ArrowDownLeft,
-  Activity,
-  Zap,
-  Brain,
-  Star,
-  Award,
-  AlertCircle,
-  CheckCircle,
-  Clock,
-  Percent,
-} from 'lucide-react-native';
+import { ChartBar as BarChart, ChartPie as PieChart, TrendingUp, TrendingDown, Calendar, DollarSign, Target, Users, Download, Eye, Filter, RefreshCw, ArrowUpRight, ArrowDownLeft, Activity, Zap, Brain, Star, Award, CircleAlert as AlertCircle, CircleCheck as CheckCircle, Clock, Percent } from 'lucide-react-native';
 
 const { width } = Dimensions.get('window');
 
