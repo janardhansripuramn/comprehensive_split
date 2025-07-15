@@ -21,32 +21,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
 import DataExport from '@/components/DataExport';
 import NotificationSystem from '@/components/NotificationSystem';
-import {
-  Settings,
-  User as UserIcon,
-  Bell,
-  Shield,
-  Database,
-  Download,
-  Upload,
-  Trash2,
-  Moon,
-  Sun,
-  Globe,
-  Lock,
-  Eye,
-  EyeOff,
-  ChevronRight,
-  LogOut,
-  X,
-  Check,
-  AlertTriangle,
-  HelpCircle,
-  Mail,
-  Phone,
-  CreditCard,
-  Smartphone,
-} from 'lucide-react-native';
+import { Settings, User as UserIcon, Bell, Shield, Database, Download, Upload, Trash2, Moon, Sun, Globe, Lock, Eye, EyeOff, ChevronRight, LogOut, X, Check, TriangleAlert as AlertTriangle, CircleHelp as HelpCircle, Mail, Phone, CreditCard, Smartphone } from 'lucide-react-native';
 
 interface UserSettings {
   notifications: {
