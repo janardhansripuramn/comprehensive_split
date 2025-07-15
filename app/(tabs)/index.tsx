@@ -21,23 +21,7 @@ import {
 import { Expense, Income, Budget, Reminder, Group } from '@/types';
 import { LinearGradient } from 'expo-linear-gradient';
 import { router } from 'expo-router';
-import {
-  DollarSign,
-  TrendingUp,
-  TrendingDown,
-  Target,
-  Users,
-  Bell,
-  Calendar,
-  PieChart,
-  ArrowUpRight,
-  ArrowDownLeft,
-  Plus,
-  Eye,
-  AlertTriangle,
-  CheckCircle,
-  Clock,
-} from 'lucide-react-native';
+import { DollarSign, TrendingUp, TrendingDown, Target, Users, Bell, Calendar, ChartPie as PieChart, ArrowUpRight, ArrowDownLeft, Plus, Eye, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Clock } from 'lucide-react-native';
 
 const { width } = Dimensions.get('window');
 
